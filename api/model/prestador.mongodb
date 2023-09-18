@@ -1,4 +1,4 @@
-use('FatecItu')
+use('user')
 
 db.prestadores.insertOne({
     "cnpj": "45150718000142",
@@ -12,7 +12,7 @@ db.prestadores.insertOne({
     }
 })
 
-use('FatecItu')
+use('user')
 
 db.prestadores.insertOne({
     "cnpj": "45150718007642",
