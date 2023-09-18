@@ -96,7 +96,7 @@ router.get('/razao/:razao',async(req, res)=> {
  */
 router.delete('/:id', async(req,res) => {
     await db.collection(nomeCollection)
-    .deleteOne({"_id": { $eq: ObjectId(res.params.id)}})
+    .deleteOne({"_id": { $eq: ObjectId(req.params.id)}})
     .then(result=> res.status(200).send(result))
     .catch(err => res.status(400).json(err))
 })

@@ -18,13 +18,14 @@ Content-Type: application/json/
 
 ###
 // DELETE - Apaga um registro pelo id
-DELETE {{baseURL}}
-Content-Type: application/json/
+DELETE {{baseURL}}65084e1d5d86a005d177690c
+Content-Type: application/json
 
 ###
 //POST - Insere um novo registro
 POST {{baseURL}}
-Content-Type: application/json/
+Content-Type: application/json
+
 {
     "cnpj": "45150718014988",
     "razao_social": "SERVIÇOS MOTOBOY LTDA.",
@@ -43,6 +44,7 @@ Content-Type: application/json/
 
 PUT {{baseURL}}
 Content-Type: application/json
+
 {
 "_id": "65084e168336eb6df4d83d3d",
 "cnpj": "45150718000142",
